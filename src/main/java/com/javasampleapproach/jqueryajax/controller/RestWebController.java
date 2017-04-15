@@ -25,7 +25,7 @@ public class RestWebController {
 	@RequestMapping(value = "/postcustomer", method = RequestMethod.POST)
 	public Response postCustomer(@RequestBody Customer customer) {
 		cust.add(customer);
-		Response response = new Response("Done", customer);
+		Response response = new Response("success", customer);
 		return response;
 	}
 }
