@@ -1,9 +1,9 @@
 Manifest-Version: 1.0
 Implementation-Title: SpringBootJQueryAjaxClient
 Implementation-Version: 0.0.1
-Built-By: ansingh
+Built-By: mounikaperala
 Implementation-Vendor-Id: com.javasampleapproach.jqueryajax
-Build-Jdk: 1.8.0_121
+Build-Jdk: 1.8.0_131
 Implementation-URL: http://projects.spring.io/spring-boot/SpringBootJQ
  ueryAjaxClient/
 Created-By: Maven Integration for Eclipse
