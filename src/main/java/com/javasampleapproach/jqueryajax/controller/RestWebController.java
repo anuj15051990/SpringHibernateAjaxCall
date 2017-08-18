@@ -28,4 +28,12 @@ public class RestWebController {
 		Response response = new Response("done", customer);
 		return response;
 	}
+	
+	@RequestMapping(value = "/delete", method = RequestMethod.DELETE)
+	public Response deleteCustomer(@RequestBody Customer customer) {
+		cust.add(customer);
+		Response response = new Response("done", customer);
+		return response;
+	}
+	
 }
