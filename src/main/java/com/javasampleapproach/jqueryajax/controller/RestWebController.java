@@ -42,5 +42,14 @@ public class RestWebController {
 		Response response = new Response("done", customer);
 		return response;
 	}
+     
+     @RequestMapping(value = "/update", method = RequestMethod.PUT)
+ 	public Response updateCustomer(@RequestBody Customer customer) {
+ 		cust.add(customer);
+ 		Response response = new Response("updated customer sucessfully", customer);
+ 		return response;
+ 	}
+      
+     
 	
 }
