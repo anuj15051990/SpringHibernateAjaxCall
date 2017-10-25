@@ -35,5 +35,12 @@ public class RestWebController {
 		Response response = new Response("done", customer);
 		return response;
 	}
+
+     @RequestMapping(value = "/search", method = RequestMethod.POST)
+	public Response searchCustomer(@RequestBody Customer customer) {
+		cust.add(customer);
+		Response response = new Response("done", customer);
+		return response;
+	}
 	
 }
